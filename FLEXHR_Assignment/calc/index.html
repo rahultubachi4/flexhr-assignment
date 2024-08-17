@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="head">
+            <h1>BMI-Calculator</h1>
+        </div>
+
+        <div class="height-bmi">
+            <fieldset>
+                <legend>Height(inch)</legend>
+                <label for="weight"></label>
+                <input id="height" type="number">
+            </fieldset>
+        </div>
+
+        <div class="weight-bmi">
+            <fieldset>
+                <legend>Weight(kg)</legend>
+                <label for="weight"></label>
+                <input id="weight" type="number"><br />
+            </fieldset>
+        </div>
+
+        <div class="btn-bmi">
+            <button onclick='reload()' class="res">Reset</button>
+            <button onclick='calculateBmi()' class="sub">Submit</button>
+        </div>
+
+        <div class="msg">
+            <h4 id="heading"></h4>
+            <p id="bmi-output"></p>
+            <p id="message"></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

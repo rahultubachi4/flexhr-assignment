@@ -1,0 +1,75 @@
+.body {
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    height: 520px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 200px;
+    /* box-shadow: gray; */
+}
+
+.head h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+
+}
+
+.height-bmi fieldset {
+    width: 300px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.weight-bmi fieldset {
+    width: 300px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.res {
+    font-size: 18px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
+.sub {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.height-bmi input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+.weight-bmi input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.msg {
+    text-align: center;
+    font-size: 18px;
+}
+
+#bmi-output {
+    font-size: 19px;
+}
+
+#message {
+    font-size: 20px;
+}
