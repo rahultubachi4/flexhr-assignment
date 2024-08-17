@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 500px;
+    font-display: swap;
+    src: url(/fonts/Poppins-Medium.ttf) format("truetype")
+}
+
+body {
+    position: relative;
+    /* top: 100px;
+    bottom: 130px; */
+    margin-left: 20px;
+}
+
+.image1,#logo
+ {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.title h1 {
+    font-family: Poppins;
+    color: #0f91f6;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.box {
+    border: 1px solid gray;
+    height: 480px;
+    width: 600px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+    border: none;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#username::placeholder {
+    font-family: Poppins, sans-serif !important;
+    color: #c2e4fe;
+}
+
+#password::placeholder {
+    font-family: Poppins, sans-serif !important;
+    color: #c2e4fe;
+}
+
+.box h1 {
+    text-align: center;
+    color: #0f91f6;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: Poppins;
+
+}
+
+#username {
+    color: #0f91f6;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Poppins;
+
+}
+
+#password {
+    color: #0f91f6;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Poppins;
+   
+
+
+}
+
+fieldset {
+    border-radius: 7px;
+    margin: 0 auto;
+    width: 440px;
+    /* padding: auto; */
+    font-weight: 500;
+    font-family: Poppins, sans-serif !important;
+    margin-bottom: 40px;
+    background-color: white;
+   border: 1px solid  #0f91f6;
+
+}
+
+
+.Log {
+    background: linear-gradient(90deg, #0f91f6 38.43%, #1aa9c5);
+    color: white;
+    font-size: 22px;
+    border-radius: 4px;
+    width: 120px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    font: weight 20px;
+    font-family: Poppins, sans-serif;
+    margin-top: 20px;
+    margin-left: 410px;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.forgot ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-weight: 100;
+    font-family: Poppins;
+    color: #606060;
+    cursor: pointer;
+
+}
+
+.forgot ul li a {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #606060;
+}
+
+.textbox-username input {
+    border: none;
+    outline: none;
+    color: #0f91f6;
+    font-weight: 100;
+    font-family: Poppins;
+}
+
+
+.textbox-password input {
+    border: none;
+    outline: none;
+    color: #0f91f6;
+    font-weight: 100;
+    font-family: Poppins;
+    width: 100%;
+
+
+}
+.username_title{
+    font-size: 1em;
+    color: #0f91f6;
+    font-family: Poppins;
+
+}
+.password_title{
+    font-size: 1em;
+    color: #0f91f6;
+    font-family: Poppins;
+
+}
