@@ -1,0 +1,84 @@
+.container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+button {
+    background-color: #f44336;
+    color: white;
+}
+
+
+input,
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+}
+
+
+li.completed {
+    background-color: #d4f4d2;
+    cursor: pointer;
+}
+
+
+li.not-completed {
+    background-color: #f8d7da;
+    cursor: pointer;
+}
+
+button.complete-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px;
+    margin: 7px;
+}
+
+
+button.remove-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 7px;
+    margin: 7px;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+#new-task{
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#add-task{
+    margin-left: 320px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border-color: red;
+    width: 80px;
+}
