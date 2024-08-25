@@ -9,36 +9,39 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="calculator">
 
-        <div class="display" id="display">0</div>
+        <div id="display" class="display">0</div>
 
         <div class="buttons">
-            <button class="btn" onclick="clearDisplay()">AC</button>
-            <button class="btn" onclick="input('+/-')">+/-</button>
-            <button class="btn" onclick="input('%')">%</button>
-            <button class="btn-right" onclick="input('/')">/</button>
 
-            <button class="btn" onclick="input('7')">7</button>
-            <button class="btn" onclick="input('8')">8</button>
-            <button class="btn" onclick="input('9')">9</button>
-            <button class="btn-right" onclick="input('*')">*</button>
+            <button class="btn" onclick="clearDisplay()" id="btn-AC">AC</button>
+            <button class="btn" onclick="toggleSign()" id="btn-tog">+/-</button>
+            <button class="btn" onclick="inputOperator('%')" id="btn-mod">%</button>
+            <button class="btn btn-right" onclick="inputOperator('/')">/</button>
 
-            <button class="btn" onclick="input('4')">4</button>
-            <button class="btn" onclick="input('5')">5</button>
-            <button class="btn" onclick="input('6')">6</button>
-            <button class="btn-right" onclick="input('-')">-</button>
+            <button class="btn" onclick="inputDigit('7')">7</button>
+            <button class="btn" onclick="inputDigit('8')">8</button>
+            <button class="btn" onclick="inputDigit('9')">9</button>
+            <button class="btn btn-right" onclick="inputOperator('*')">*</button>
 
-            <button class="btn" onclick="input('1')">1</button>
-            <button class="btn" onclick="input('2')">2</button>
-            <button class="btn" onclick="input('3')">3</button>
-            <button class="btn-right" onclick="input('+')">+</button>
+            <button class="btn" onclick="inputDigit('4')">4</button>
+            <button class="btn" onclick="inputDigit('5')">5</button>
+            <button class="btn" onclick="inputDigit('6')">6</button>
+            <button class="btn btn-right" onclick="inputOperator('-')">-</button>
 
-            <button class="btn-left" onclick="input('0')">0</button>
-            <button class="btn" onclick="input('.')">.</button>
-            <button class="btn-right" onclick="calculate()">=</button>
+            <button class="btn" onclick="inputDigit('1')">1</button>
+            <button class="btn" onclick="inputDigit('2')">2</button>
+            <button class="btn" onclick="inputDigit('3')">3</button>
+            <button class="btn btn-right" onclick="inputOperator('+')">+</button>
+
+            <button class="btn btn-left" onclick="inputDigit('0')">0</button>
+            <button class="btn" onclick="inputDecimal()">.</button>
+            <button class="btn btn-right" onclick="calculateResult()">=</button>
         </div>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 

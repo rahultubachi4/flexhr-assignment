@@ -1,47 +1,48 @@
 body {
     display: flex;
-    margin: 0;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: #f0f0f0;
 }
 
-.container {
-    display: flex;
-    height: 450px;
-    width: 400px;
-    background-color: black;
+.calculator {
+    background-color: #000;
     border-radius: 20px;
-    flex-direction: column;
     padding: 20px;
+    width: 390px;
 }
 
 .display {
-    height: 60px;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
+    color: #fff;
     text-align: right;
-    font-size: 25px;
-    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 27px;
+    margin-bottom: 10px;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    grid-gap: 10px;
 }
 
-.btn, .btn-right, .btn-left {
-    font-size: 20px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    text-align: center;
+button {
+    font-size: 25px;
+    padding: 20px;
+    background-color: #444444;
     color: white;
-    height: 55px;
-    background-color: rgb(76, 76, 76);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 60px;
+}
+
+
+button:active {
+    background-color: #666;
 }
 
 .btn-right {
@@ -50,9 +51,31 @@ body {
 
 .btn-left {
     grid-column: span 2;
-    background-color: rgb(103, 103, 103);
 }
 
-.btn:active, .btn-right:active, .btn-left:active {
-    background-color: rgb(103, 103, 103);
+#btn-AC {
+    background-color: white;
+    color: black;
+}
+
+#btn-tog {
+    background-color: white;
+    color: black;
+}
+
+#btn-mod {
+    background-color: white;
+    color: black;
+}
+
+#btn-AC:active {
+    background-color: #666;
+}
+
+#btn-tog:active {
+    background-color: #666;
+}
+
+#btn-mod:active {
+    background-color: #666;
 }
